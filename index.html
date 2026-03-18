@@ -1,344 +1,686 @@
-```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Siddhi Sankhe | Performance Marketing Portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Inter,sans-serif;
-}
-
-body{
-background:#0f172a;
-color:#e2e8f0;
-line-height:1.6;
-}
-
-.container{
-width:85%;
-max-width:1100px;
-margin:auto;
-padding:70px 0;
-}
-
-h1,h2,h3{
-margin-bottom:15px;
-}
-
-p{
-color:#94a3b8;
-margin-bottom:10px;
-}
-
-section{
-border-bottom:1px solid #1e293b;
-}
-
-/* NAVBAR */
-
-nav{
-position:fixed;
-top:0;
-width:100%;
-background:#020617;
-padding:18px 0;
-z-index:1000;
-}
-
-nav .nav-inner{
-display:flex;
-justify-content:space-between;
-align-items:center;
-width:85%;
-max-width:1100px;
-margin:auto;
-}
-
-nav a{
-text-decoration:none;
-color:#e2e8f0;
-margin-left:20px;
-font-size:14px;
-}
-
-nav a:hover{
-color:#38bdf8;
-}
-
-/* HERO */
-
-.hero{
-padding-top:120px;
-text-align:center;
-}
-
-.hero h1{
-font-size:42px;
-font-weight:700;
-}
-
-.hero p{
-font-size:18px;
-margin-top:10px;
-}
-
-.btn{
-display:inline-block;
-padding:12px 22px;
-margin-top:25px;
-margin-right:10px;
-border-radius:6px;
-text-decoration:none;
-font-weight:500;
-}
-
-.primary{
-background:#38bdf8;
-color:#020617;
-}
-
-.secondary{
-border:1px solid #38bdf8;
-color:#38bdf8;
-}
-
-/* GRID */
-
-.grid{
-display:grid;
-gap:25px;
-}
-
-.grid-3{
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-}
-
-.card{
-background:#020617;
-padding:25px;
-border-radius:10px;
-border:1px solid #1e293b;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-border-color:#38bdf8;
-}
-
-/* CASE STUDY */
-
-.case{
-margin-bottom:40px;
-}
-
-.case h3{
-color:#38bdf8;
-}
-
-/* CONTACT */
-
-.contact a{
-color:#38bdf8;
-text-decoration:none;
-}
-
-footer{
-text-align:center;
-padding:40px;
-font-size:14px;
-color:#64748b;
-}
-
-</style>
-</head>
-
-<body>
-
-<nav>
-<div class="nav-inner">
-<div><strong>Siddhi Sankhe</strong></div>
-<div>
-<a href="#about">About</a>
-<a href="#expertise">Expertise</a>
-<a href="#case">Case Studies</a>
-<a href="#contact">Contact</a>
-</div>
-</div>
-</nav>
-
-
-<section class="hero">
-<div class="container">
-
-<h1>Performance Marketing & Paid Media Professional</h1>
-
-<p>3+ years managing Google Ads campaigns for eCommerce brands with focus on ROAS, CPA efficiency and structured performance optimization.</p>
-
-<a class="btn primary" href="#case">View Case Studies</a>
-<a class="btn secondary" href="resume.pdf">Download Resume</a>
-
-</div>
-</section>
-
-
-<section id="about">
-<div class="container">
-
-<h2>About</h2>
-
-<p>I’m a Performance Marketing professional with 3 years of agency experience managing and optimizing Google Ads campaigns for eCommerce brands.</p>
-
-<p>I specialize in structured campaign execution, performance monitoring and data-driven optimization to improve ROAS and acquisition efficiency.</p>
-
-<p>I have worked in execution-heavy agency environments supporting US-based clients where accuracy, speed and performance accountability are critical.</p>
-
-</div>
-</section>
-
-
-<section id="expertise">
-<div class="container">
-
-<h2>Core Expertise</h2>
-
-<div class="grid grid-3">
-
-<div class="card">
-<h3>Paid Media</h3>
-<p>Google Ads (Search, Shopping, PMAX)</p>
-<p>Microsoft Ads</p>
-<p>Foundational Meta Ads</p>
-</div>
-
-<div class="card">
-<h3>Performance Analysis</h3>
-<p>ROAS / CPA / MER Analysis</p>
-<p>Funnel Performance Diagnosis</p>
-<p>Budget Pacing</p>
-</div>
-
-<div class="card">
-<h3>Tools</h3>
-<p>GA4</p>
-<p>Looker Studio</p>
-<p>Advanced Excel</p>
-</div>
-
-</div>
-
-</div>
-</section>
-
-
-<section id="case">
-<div class="container">
-
-<h2>Featured Case Studies</h2>
-
-<div class="case">
-
-<h3>Binky Belle – eCommerce Scaling</h3>
-
-<p>Restructured Performance Max campaigns using SKU segmentation and ROAS-based budget allocation.</p>
-
-<p><strong>Results:</strong> 874 purchases, $21.9k revenue on $6k spend, 3.51 ROAS.</p>
-
-</div>
-
-
-<div class="case">
-
-<h3>SAG Logistics – Lead Generation</h3>
-
-<p>Improved lead quality by restructuring search campaigns and implementing high-intent keyword targeting.</p>
-
-<p><strong>Results:</strong> 700 conversions, 70% revenue increase, reduced CPC and CPA.</p>
-
-</div>
-
-
-<div class="case">
-
-<h3>Possible Foods – Customer Acquisition</h3>
-
-<p>Optimized search campaigns using plant-based positioning and offer-led messaging to attract high-intent customers.</p>
-
-<p><strong>Outcome:</strong> Stable CPA with improved acquisition performance.</p>
-
-</div>
-
-</div>
-</section>
-
-
-<section>
-<div class="container">
-
-<h2>Campaign Experience</h2>
-
-<div class="grid grid-3">
-
-<div class="card">PF Flyers – D2C Footwear<br>3-4x ROAS performance</div>
-
-<div class="card">Standard Process – Healthcare<br>Medical intent keyword filtering</div>
-
-<div class="card">Wholistic Matters – Wellness<br>Lead generation campaigns</div>
-
-<div class="card">Fun in Motion – Consumer Brand<br>Shopping feed optimization</div>
-
-<div class="card">JustFab – Fashion eCommerce<br>Subscription campaign optimization</div>
-
-<div class="card">Pet Honesty – Pet Wellness<br>PMAX + Search performance strategy</div>
-
-<div class="card">Sundry Clothing – Apparel<br>Seasonal campaign scaling</div>
-
-</div>
-
-</div>
-</section>
-
-
-<section id="contact">
-<div class="container contact">
-
-<h2>Contact</h2>
-
-<p>Email: <a href="mailto:sankhesiddhi9@gmail.com">sankhesiddhi9@gmail.com</a></p>
-
-<p>LinkedIn: <a href="https://www.linkedin.com/in/siddhi-sankhe-a589b1139">linkedin.com/in/siddhi-sankhe</a></p>
-
-</div>
-</section>
-
-
-<footer>
-© 2026 Siddhi Sankhe | Performance Marketing Portfolio
-</footer>
-
-
-<script>
-
-document.querySelectorAll('nav a').forEach(anchor=>{
-anchor.addEventListener('click',function(e){
-e.preventDefault();
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-behavior:'smooth'
-});
-});
-});
-
-</script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Siddhi Sankhe - Performance Marketing Portfolio</title>
+    <script>
+      (function () {
+        var t = localStorage.getItem("theme");
+        if (t) {
+          document.documentElement.setAttribute("data-theme", t);
+        } else if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- TICKER -->
+    <div class="ticker" id="ticker">
+      <div class="ticker-inner">
+        <span class="ticker-item"
+          >Google Ads <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >ROAS Optimization <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >eCommerce Growth <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Performance Max <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Shopping Campaigns <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Paid Media Strategy <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >CPA Reduction <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Funnel Analysis <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Search Campaigns <span class="sep">&#10022;</span></span
+        >
+        <!-- duplicate set for seamless loop -->
+        <span class="ticker-item"
+          >Google Ads <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >ROAS Optimization <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >eCommerce Growth <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Performance Max <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Shopping Campaigns <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Paid Media Strategy <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >CPA Reduction <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Funnel Analysis <span class="sep">&#10022;</span></span
+        >
+        <span class="ticker-item"
+          >Search Campaigns <span class="sep">&#10022;</span></span
+        >
+      </div>
+    </div>
+
+    <!-- STICKY NAV -->
+    <nav class="sticky-nav" id="stickyNav">
+      <a href="#hero" class="nav-name">Siddhi Sankhe</a>
+      <div class="nav-links">
+        <a href="#cases">Case Studies</a>
+        <a href="#process">How I Work</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="icon-sun"
+            ><svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" /></svg
+          ></span>
+          <span class="icon-moon"
+            ><svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg
+          ></span>
+        </button>
+      </div>
+      <button
+        class="theme-toggle"
+        id="themeToggleMobile"
+        aria-label="Toggle theme"
+        style="display: none"
+      >
+        <span class="icon-sun">&#9788;</span>
+        <span class="icon-moon">&#9790;</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#cases">Case Studies</a>
+        <a href="#process">How I Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-inner">
+        <div class="hero-left fade-in">
+          <div class="hero-eyebrow">Siddhi Sankhe</div>
+          <h1 class="hero-name">
+            Performance Marketer <em>&amp; Paid Media Strategist</em>
+          </h1>
+          <p class="hero-desc">
+            3+ years of agency experience managing and optimizing Google Ads
+            campaigns with a strong focus on ROAS improvement, CPA efficiency,
+            and structured performance analysis.
+          </p>
+          <div class="hero-btns">
+            <a href="#cases" class="btn-primary">View case studies &rarr;</a>
+            <div class="hero-btns-secondary">
+              <a
+                href="https://www.dropbox.com/scl/fi/9tv4x8tebonh6p68m38qt/Siddhi_Sankhe_Resume.pdf?rlkey=ncwrkj54vrbu9mlnnhs9bfxvj&st=18hmmvhf&dl=0"
+                target="_blank"
+                class="btn-ghost"
+                >&darr; Download resume</a
+              >
+              <a
+                href="https://linkedin.com/in/siddhi-sankhe-a589b1139"
+                target="_blank"
+                class="btn-ghost"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-right fade-in">
+          <div class="hero-photo-wrap">
+            <img src="photo.jpg" alt="Siddhi Sankhe" class="hero-photo" />
+            <div class="hero-photo-deco"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS -->
+    <section id="metrics" class="metrics-strip">
+      <div class="metrics-row">
+        <div class="metric-cell">
+          <div
+            class="metric-num counter"
+            data-target="3.51"
+            data-suffix="x"
+            data-decimals="2"
+          >
+            0
+          </div>
+          <div class="metric-lbl">Peak ROAS</div>
+        </div>
+        <div class="metric-cell">
+          <div class="metric-num counter" data-target="874">0</div>
+          <div class="metric-lbl">Purchases Generated</div>
+        </div>
+        <div class="metric-cell">
+          <div
+            class="metric-num counter"
+            data-target="70"
+            data-prefix="+"
+            data-suffix="%"
+          >
+            0
+          </div>
+          <div class="metric-lbl">Revenue Lift</div>
+        </div>
+        <div class="metric-cell">
+          <div
+            class="metric-num counter"
+            data-target="35"
+            data-prefix="$"
+            data-suffix="K+"
+          >
+            0
+          </div>
+          <div class="metric-lbl">Monthly Budgets</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="cases">
+      <div class="container">
+        <div class="eyebrow fade-in">Case Studies</div>
+        <h2 class="heading fade-in">
+          Results that<br /><em>prove the work.</em>
+        </h2>
+        <div class="cases-list">
+          <div class="case-card fade-in">
+            <div class="case-head" onclick="toggleCase(this)">
+              <div class="case-left">
+                <div class="case-tag">eCommerce · Jewellery · UK</div>
+                <div class="case-name">
+                  Scaling revenue with structured PMAX optimization
+                </div>
+                <div class="case-chips">
+                  <span class="chip">Binky Belle</span
+                  ><span class="chip">Performance Max</span
+                  ><span class="chip">Search</span
+                  ><span class="chip">Shopping</span>
+                </div>
+              </div>
+              <div class="case-kpis">
+                <div class="kpi">
+                  <div class="kpi-val">3.51x</div>
+                  <div class="kpi-lbl">ROAS</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-val">+37%</div>
+                  <div class="kpi-lbl">Purchases</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-val">$21.9K</div>
+                  <div class="kpi-lbl">Revenue</div>
+                </div>
+              </div>
+              <button class="toggle-btn">+</button>
+            </div>
+            <div class="case-body">
+              <div class="case-body-inner">
+                <div class="cb-col">
+                  <div class="cb-label">Challenge</div>
+                  <p class="cb-text">
+                    Poor segmentation caused inefficient budget distribution.
+                    Top SKUs were buried in broad PMAX campaigns.
+                  </p>
+                </div>
+                <div class="cb-col">
+                  <div class="cb-label">Actions</div>
+                  <ul class="cb-list">
+                    <li>Segmented PMAX by product performance</li>
+                    <li>Isolated top SKUs with dedicated budgets</li>
+                    <li>
+                      Implemented Target ROAS bidding after conversion volume
+                      stabilized
+                    </li>
+                    <li>Scaled budgets 10-20% after stable ROAS windows</li>
+                  </ul>
+                </div>
+                <div class="cb-col full">
+                  <div class="cb-label">Results</div>
+                  <div class="result-pills">
+                    <div class="rpill">
+                      <div class="rpill-val">874</div>
+                      <div class="rpill-lbl">Purchases</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">+37%</div>
+                      <div class="rpill-lbl">MoM Growth</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">$21.9K</div>
+                      <div class="rpill-lbl">Revenue</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">3.51x</div>
+                      <div class="rpill-lbl">ROAS</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">$7.28</div>
+                      <div class="rpill-lbl">Cost/Conv.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="insight full">
+                  💡 Segmented structures send stronger signals to automated
+                  bidding. Isolating high-performing SKUs enabled scalable
+                  growth without sacrificing profitability.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card fade-in">
+            <div class="case-head" onclick="toggleCase(this)">
+              <div class="case-left">
+                <div class="case-tag">Logistics · Lead Gen · UAE</div>
+                <div class="case-name">
+                  Lead generation campaign optimization
+                </div>
+                <div class="case-chips">
+                  <span class="chip">SAG Logistics</span
+                  ><span class="chip">Search</span
+                  ><span class="chip">Smart Campaigns</span>
+                </div>
+              </div>
+              <div class="case-kpis">
+                <div class="kpi">
+                  <div class="kpi-val">700</div>
+                  <div class="kpi-lbl">Conversions</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-val">+70%</div>
+                  <div class="kpi-lbl">Revenue</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-val">64%</div>
+                  <div class="kpi-lbl">Conv. Rate</div>
+                </div>
+              </div>
+              <button class="toggle-btn">+</button>
+            </div>
+            <div class="case-body">
+              <div class="case-body-inner">
+                <div class="cb-col">
+                  <div class="cb-label">Challenge</div>
+                  <p class="cb-text">
+                    Broad campaign structure attracted low-intent traffic,
+                    inflating cost per conversion and producing inconsistent
+                    lead quality.
+                  </p>
+                </div>
+                <div class="cb-col">
+                  <div class="cb-label">Actions</div>
+                  <ul class="cb-list">
+                    <li>Refined targeting to high-intent logistics queries</li>
+                    <li>Built strong negative keyword strategy</li>
+                    <li>Improved ad copy relevance to service keywords</li>
+                    <li>Reallocated budget to highest-converting keywords</li>
+                  </ul>
+                </div>
+                <div class="cb-col full">
+                  <div class="cb-label">Results</div>
+                  <div class="result-pills">
+                    <div class="rpill">
+                      <div class="rpill-val">700</div>
+                      <div class="rpill-lbl">Conversions</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">+70%</div>
+                      <div class="rpill-lbl">Revenue Growth</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">AED 2.64</div>
+                      <div class="rpill-lbl">CPC</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">AED 4.12</div>
+                      <div class="rpill-lbl">Cost/Conv.</div>
+                    </div>
+                    <div class="rpill">
+                      <div class="rpill-val">64.22%</div>
+                      <div class="rpill-lbl">Conv. Rate</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="insight full">
+                  💡 High-intent keyword targeting + strong negative keyword
+                  management dramatically improves lead quality while cutting
+                  acquisition costs.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-card case-card-qualitative fade-in">
+            <div class="case-head" onclick="toggleCase(this)">
+              <div class="case-left">
+                <div class="case-tag">Plant-Based Food · USA</div>
+                <div class="case-name">
+                  Customer acquisition for plant-based brand
+                </div>
+                <div class="case-chips">
+                  <span class="chip">Possible Foods</span
+                  ><span class="chip">Search</span
+                  ><span class="chip">Retargeting</span>
+                </div>
+              </div>
+              <div class="case-kpis">
+                <div class="kpi">
+                  <div class="kpi-val">↑ CVR</div>
+                  <div class="kpi-lbl">Conv. Rate</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-val">Stable</div>
+                  <div class="kpi-lbl">CPA</div>
+                </div>
+              </div>
+              <button class="toggle-btn">+</button>
+            </div>
+            <div class="case-body case-body-compact">
+              <div class="case-body-inner">
+                <div class="cb-col">
+                  <div class="cb-label">Challenge</div>
+                  <p class="cb-text">
+                    Policy restrictions in health/food category combined with
+                    broad targeting reduced purchase intent.
+                  </p>
+                </div>
+                <div class="cb-col">
+                  <div class="cb-label">Actions</div>
+                  <ul class="cb-list">
+                    <li>
+                      Structured campaigns around high-intent product keywords
+                    </li>
+                    <li>
+                      Tested offer-led messaging to increase purchase intent
+                    </li>
+                    <li>Highlighted plant-based positioning in copy</li>
+                    <li>
+                      Applied retargeting layers for audience qualification
+                    </li>
+                  </ul>
+                </div>
+                <div class="insight full">
+                  💡 Health and food categories require careful policy alignment
+                  and intent-driven targeting. Offer-led messaging improved both
+                  CTR and conversion performance.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BRANDS GRID -->
+        <div class="sub-label section-divider fade-in">
+          More Brands I've Worked With
+        </div>
+        <div class="brands-grid compact-top fade-in">
+          <div class="brand-cell">
+            <div class="brand-name">PF Flyers</div>
+            <div class="brand-cat">D2C Footwear</div>
+            <div class="brand-note">
+              3x-4x ROAS · Brand vs non-brand · SKU prioritization
+            </div>
+          </div>
+          <div class="brand-cell">
+            <div class="brand-name">Standard Process</div>
+            <div class="brand-cat">Healthcare / Nutrition</div>
+            <div class="brand-note">
+              Medical-intent keyword refinement · Budget redistribution
+            </div>
+          </div>
+          <div class="brand-cell">
+            <div class="brand-name">Wholistic Matters</div>
+            <div class="brand-cat">Wellness</div>
+            <div class="brand-note">
+              Lead quality focus · Keyword clustering · CTR optimization
+            </div>
+          </div>
+          <div class="brand-cell">
+            <div class="brand-name">JustFab</div>
+            <div class="brand-cat">Fashion eCommerce</div>
+            <div class="brand-note">
+              Subscription model performance · Offer testing
+            </div>
+          </div>
+          <div class="brand-cell">
+            <div class="brand-name">Pet Honesty</div>
+            <div class="brand-cat">Pet Wellness</div>
+            <div class="brand-note">
+              PMax + Search layering · Search term isolation
+            </div>
+          </div>
+          <div class="brand-cell">
+            <div class="brand-name">Sundry Clothing</div>
+            <div class="brand-cat">Apparel</div>
+            <div class="brand-note">
+              Seasonal scaling · Shopping optimization
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW I WORK + EXPERIENCE -->
+    <section id="process">
+      <div class="container">
+        <div class="eyebrow fade-in">Process & Experience</div>
+        <h2 class="heading fade-in">
+          How I think.<br /><em>What I bring.</em>
+        </h2>
+
+        <!-- Dark approach block -->
+        <div class="approach-block fade-in">
+          <div class="sub-label">My approach to optimization</div>
+          <div class="approach-grid">
+            <div class="approach-step">
+              <div class="approach-step-num">01</div>
+              <div class="approach-step-title">Performance Diagnosis</div>
+              <div class="approach-step-desc">
+                Structure, trends & segmentation
+              </div>
+            </div>
+            <div class="approach-step">
+              <div class="approach-step-num">02</div>
+              <div class="approach-step-title">Traffic Quality</div>
+              <div class="approach-step-desc">Intent, terms & targeting</div>
+            </div>
+            <div class="approach-step">
+              <div class="approach-step-num">03</div>
+              <div class="approach-step-title">Funnel Analysis</div>
+              <div class="approach-step-desc">Pages, journey & bottlenecks</div>
+            </div>
+            <div class="approach-step">
+              <div class="approach-step-num">04</div>
+              <div class="approach-step-title">Budget & Bids</div>
+              <div class="approach-step-desc">Allocation & strategy</div>
+            </div>
+            <div class="approach-step">
+              <div class="approach-step-num">05</div>
+              <div class="approach-step-title">Scaling</div>
+              <div class="approach-step-desc">Stable signals, then scale</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience cards -->
+        <div class="sub-label section-divider fade-in">Where I've worked</div>
+        <div class="exp-grid compact-top fade-in">
+          <div class="exp-card">
+            <div class="exp-company">Vayner Commerce</div>
+            <div class="exp-role">Ads Operations Associate</div>
+            <div class="exp-period">Oct 2024 - Jan 2026</div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-company">Semtitans Digital</div>
+            <div class="exp-role">SEM Executive</div>
+            <div class="exp-period">Feb 2023 - Oct 2024</div>
+          </div>
+          <div class="exp-card">
+            <div class="exp-company">Anuvaa</div>
+            <div class="exp-role">Digital Marketing Intern</div>
+            <div class="exp-period">May 2022 - Jul 2022</div>
+          </div>
+        </div>
+
+        <!-- Skills & Certs row -->
+        <div class="creds-row fade-in">
+          <div class="cred-card">
+            <div class="sub-label">Skills & Tools</div>
+            <div class="tags">
+              <span class="tag">Google Ads</span>
+              <span class="tag">PMax</span>
+              <span class="tag">ROAS Optimization</span>
+              <span class="tag">Funnel Analysis</span>
+              <span class="tag">Budget Pacing</span>
+              <span class="tag">Campaign QA</span>
+              <span class="tag">GA4</span>
+              <span class="tag">Looker Studio</span>
+              <span class="tag">Merchant Center</span>
+              <span class="tag">GTM</span>
+              <span class="tag">Shopify</span>
+              <span class="tag">Advanced Excel</span>
+            </div>
+          </div>
+          <div class="cred-card">
+            <div class="sub-label">Certifications & Recognition</div>
+            <div class="cert-list">
+              <div>
+                <div class="cert-title">Google Ads Certified</div>
+                <div class="cert-issuer">Google Skillshop</div>
+              </div>
+              <div>
+                <div class="cert-title">Microsoft Ads Certified</div>
+                <div class="cert-issuer">Microsoft Learning Lab</div>
+              </div>
+              <div>
+                <div class="cert-title">Meta Ads Certified</div>
+                <div class="cert-issuer">IIDE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="connect-wrap">
+          <div class="fade-in">
+            <div class="eyebrow" style="justify-content: center">
+              Let's Connect
+            </div>
+            <h2
+              class="heading"
+              style="text-align: center; font-size: clamp(38px, 5vw, 60px)"
+            >
+              Always happy<br />to <em>connect.</em>
+            </h2>
+            <p class="connect-sub">
+              I'm always happy to connect with people interested in performance
+              marketing, paid media, and digital growth.
+            </p>
+          </div>
+          <div class="connect-links fade-in">
+            <a href="mailto:sankhesiddhi9@gmail.com" class="connect-link">
+              <div class="connect-icon">✉️</div>
+              <div>
+                <div class="connect-lbl">Email</div>
+                <div class="connect-val">sankhesiddhi9@gmail.com</div>
+              </div>
+            </a>
+            <a
+              href="https://linkedin.com/in/siddhi-sankhe"
+              target="_blank"
+              class="connect-link"
+            >
+              <div class="connect-icon">💼</div>
+              <div>
+                <div class="connect-lbl">LinkedIn</div>
+                <div class="connect-val">linkedin.com/in/siddhi-sankhe</div>
+              </div>
+            </a>
+            <a
+              href="https://www.dropbox.com/scl/fi/9tv4x8tebonh6p68m38qt/Siddhi_Sankhe_Resume.pdf?rlkey=ncwrkj54vrbu9mlnnhs9bfxvj&st=18hmmvhf&dl=0"
+              target="_blank"
+              class="btn-primary"
+              style="justify-content: center"
+              >↓ Download Resume</a
+            >
+          </div>
+          <p
+            class="body-text fade-in"
+            style="
+              text-align: center;
+              margin-top: 24px;
+              color: var(--text3);
+              font-size: 13px;
+            "
+          >
+            Open to full-time roles, freelance work, and consulting
+            opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Siddhi Sankhe</span>
+      <span>Performance Marketing · Paid Media</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
-```
