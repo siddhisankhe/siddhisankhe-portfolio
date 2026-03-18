@@ -1079,9 +1079,12 @@
         #themeToggleMobile {
           display: flex !important;
           margin-left: auto;
+          align-items: center;
+          margin-right: 8px;
         }
         .hamburger {
           display: flex;
+          align-items: center;
         }
         .mobile-menu a {
           padding: 0 20px;
